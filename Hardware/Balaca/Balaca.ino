@@ -77,7 +77,7 @@ void Ajuda(){
 }
 
 float medir() {
-  return balanca.get_units(10);
+  return balanca.get_units(5);
 }
 
 void calibrate()
