@@ -38,6 +38,8 @@ def pesar():
 def limparGraph():
         global valores
         valores = {}
+        global balanca
+        balanca.tara()
         return redirect("/")
 
 @app.route('/grafico')
